@@ -1,0 +1,50 @@
+*{
+	font-family: 'Montserrat' ;
+	font-weight: 500;
+}
+
+.hero{
+	display: flex;
+	flex-direction: column;
+	height: 608px;
+	background: #F2F2F2;
+}
+
+.hero__title{
+	width: 690px;
+	padding: 135px 120px 32px;
+	margin: 0;
+	color: #333333;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 64px;
+	line-height: 110%;
+}
+
+.hero__subtitle{
+	width: 690px;
+	padding-left: 120px;
+	padding-bottom: 64px;
+	color: #4F4F4F;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 120%;
+}
+
+.btn{
+	width: 279px;
+	height: 44px;
+	margin-left: 120px;
+	text-decoration: none;
+	background: #333333;
+}
+
+.btn__text{
+	color: #FFFFFF;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 45px; /*  в макете line-height: 24px;   */
+	padding: 8px 16px;
+}
