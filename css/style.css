@@ -158,3 +158,55 @@
 	line-height: 120%;
 	color: #333333;
 }
+
+/* Services  */
+
+.services{
+	height: 524px;
+	background: #333333;
+}
+
+.services__title{
+	margin: 0;
+	padding-top: 80px;
+	padding-left: 120px;
+	padding-bottom:64px;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 110%;
+	color: #FFFFFF;
+}
+
+.services-container{
+	margin-left: 120px;
+	margin-right: 120px;
+	margin-bottom: 104px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.service-box{
+	width: 282px;
+	height: 232px;
+	background: #FFFFFF;
+	border: 1px solid #BDBDBD;
+	box-sizing: border-box;
+}
+
+.service-box__icon{
+	padding-left: 24px;
+	padding-top: 32px;
+	padding-bottom: 24px;
+	padding-right:157.71px;
+}
+
+.service-box__description{
+	display: block;
+	padding-left: 24px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 110%;
+	color: #333333;
+}
