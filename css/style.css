@@ -39,6 +39,7 @@
 	height: 44px;
 	margin-left: 120px;
 	background: #333333;
+	outline: none;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 18px;
@@ -100,6 +101,8 @@
 	line-height: 28px;
 	text-align: center;
 	color: #333333;
+	outline: none;
+	background: transparent;
 }
 
 /* Company Description  */
@@ -208,5 +211,42 @@
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 110%;
+	color: #333333;
+}
+
+/* Advantages  */
+
+.advantages{
+	height: 732px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.advantages__img{
+	margin: 80px 0;
+	width: 720px;
+	height: 571.53px;
+}
+
+.advantages__content{
+	margin: 184px 120px 184px 114px;
+}
+
+.advatages__title{
+	margin: 0;
+	padding-bottom:40px;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 110%;
+	color: #333333;
+}
+
+.advantages__description{
+	width: 384px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 120%;
 	color: #333333;
 }
