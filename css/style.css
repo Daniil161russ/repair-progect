@@ -3,6 +3,10 @@
 	font-weight: 500;
 }
 
+body{
+	background: #E5E5E5;
+}
+
 /* Hero-Section */
 
 .hero{
@@ -45,11 +49,13 @@
 	font-size: 18px;
 	line-height: 28px;
 	color: #FFFFFF;
+	cursor: pointer;
 }
 
 /* Header */
 
 .header{
+	background: #FFFFFF;
 	height: 92px;
 	border-bottom: 1px solid #F2F2F2;
 }
@@ -103,11 +109,13 @@
 	color: #333333;
 	outline: none;
 	background: transparent;
+	cursor: pointer;
 }
 
 /* Company Description  */
 
 .comp-description{
+	background: #FFFFFF;
 	height: 540px;
 }
 
@@ -217,6 +225,7 @@
 /* Advantages  */
 
 .advantages{
+	background: #FFFFFF;
 	height: 732px;
 	display: flex;
 	justify-content: space-between;
@@ -249,4 +258,65 @@
 	font-size: 18px;
 	line-height: 120%;
 	color: #333333;
+}
+
+/* Materials  */
+
+.materials{
+	height: 610px;
+	display: flex;
+	justify-content: space-between;
+	background: #FFFFFF;
+}
+
+.firms{
+	width: 540px;
+	height: 498px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-left: 120px;
+	margin-top: 56px;
+}
+
+.firms___center{
+	padding-left: 72px;
+	padding-right: 72px;
+}
+
+.fims__img{
+	mix-blend-mode: luminosity;
+}
+
+.fims__img:hover{
+	mix-blend-mode:normal;
+}
+
+.materials__content{
+	width: 708px;
+	background: url(../img/handmoney.svg) no-repeat bottom right #333333;
+}
+
+.materials__title{
+	margin: 0;
+	width: 384px;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 110%;
+	color: #FFFFFF;
+	padding-left:102px;
+	padding-top: 80px;
+}
+
+.materials__text{
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 120%;
+	color: #F2F2F2;
+	width: 281px;
+	padding-left:102px;
+	padding-top: 20px;
 }
