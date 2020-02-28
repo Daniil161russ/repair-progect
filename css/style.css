@@ -101,3 +101,60 @@
 	text-align: center;
 	color: #333333;
 }
+
+/* Company Description  */
+
+.comp-description{
+	height: 540px;
+}
+
+.comp-description__title{
+	width: 588px;
+	margin: 0;
+	padding: 104px 120px 80px;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 110%;
+	color: #333333;
+}
+
+.skills{
+	margin-left: 120px;
+	margin-right: 120px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.skill-box{
+	width: 384px;
+	height: 164px;
+}
+
+.skill-box__title{
+	margin: 0;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 96px;
+	line-height: 100%;
+	color: #333333;
+	padding-bottom: 24px;
+}
+
+.title_gray{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 40px;
+	color: #BDBDBD;
+}
+
+.skill-box__subtitle{
+	width: 384px;
+	height: 44px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 120%;
+	color: #333333;
+}
