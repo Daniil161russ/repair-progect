@@ -79,18 +79,121 @@
 	<section class="materials">
 		<div class="firms">
 			<img src="img/firm_1.svg" alt="lerua merlen" class="fims__img">
-			<img src="img/firm_2.svg" alt="lerua merlen" class="fims__img firms___center">
-			<img src="img/firm_3.svg" alt="lerua merlen" class="fims__img">
-			<img src="img/firm_3.svg" alt="lerua merlen" class="fims__img">
+			<img src="img/firm_2.svg" alt="knauf" class="fims__img firms___center">
+			<img src="img/firm_3.svg" alt="kerama" class="fims__img">
+			<img src="img/firm_3.svg" alt="kerama" class="fims__img">
 			<img src="img/firm_1.svg" alt="lerua merlen" class="fims__img firms___center">
-			<img src="img/firm_2.svg" alt="lerua merlen" class="fims__img">
-			<img src="img/firm_2.svg" alt="lerua merlen" class="fims__img">
-			<img src="img/firm_3.svg" alt="lerua merlen" class="fims__img firms___center">
+			<img src="img/firm_2.svg" alt="knauf" class="fims__img">
+			<img src="img/firm_2.svg" alt="knauf" class="fims__img">
+			<img src="img/firm_3.svg" alt="kerama" class="fims__img firms___center">
 			<img src="img/firm_1.svg" alt="lerua merlen" class="fims__img">
 		</div>
 		<div class="materials__content">
 			<h2 class="materials__title">Скидки до 20% на материалы</h2>
 			<p class="materials__text">Закупаем строительные материалы с выгодой для&nbsp;Вас и предоставляем все&nbsp;чеки из магазинов.</p>
+		</div>
+	</section>
+	<section class="calculator">
+		<h2 class="calculator__title">Калькулятор стоимости</h2>
+		<div class="calculator__content">
+			<div class="quiz">
+				<h3 class="quiz__title">Основные данные</h3>
+				<div class="quiz__body">
+					<div class="field">
+						<span class="field__label">Тип объекта</span>
+						<ul class="field__input">
+							<li class="field__item item_active">Квартира</li>
+							<li class="field__item">Дом</li>
+							<li class="field__item">Ком.помещение</li>
+						</ul>
+					</div>
+					<div class="field">
+						<span class="field__label">Состояние</span>
+						<ul class="field__input">
+							<li class="field__item item_active">Вторичное жильё</li>
+							<li class="field__item">Стройвариант</li>
+						</ul>
+					</div>
+					<div class="field field-area">
+						<span class="field__label">Площадь</span>
+						<div class="field__area">
+							<input type="number" class="field__number" placeholder="Введите площадь">
+							<span class="field__label">м²</span>
+					</div>
+				</div>
+			</div>
+				<div class="quiz__steps">
+					<div class="scale">
+						<span class="scale__text">Шаг 1/6</span>
+						<div class="progress-bar">
+							<span class="progress-bar_gray"></span>
+						</div>
+					</div>
+					<div class="step__buttons">
+						<button class="back"><img src="img/Arrow.svg" alt="arrow" class="back__img"></button>
+						<button class="forward">Далее</button>
+					</div>
+				</div>	
+		</div>
+		<div class="calculator__form">
+			<div class="repair-cost">
+				<h2 class="repair-cost__text">Стоимость:</h2>
+				<span class="repair-cost__price">0 руб.</span>
+				<span class="repair-cost__included">Что входит в стоимость?</span>
+				<span class="repair-cost__deadline">Cрок реализации: 2 – 4 месяца</span>
+			</div>
+			<div class="loyalty-program">
+				<h3 class="loyalty-program__title">Хотите скидку?</h3>
+				<span class="loyalty-program__description">Оставьте заявку с калькулятора и&nbsp;мы&nbsp;предоставим Вам скидку в&nbsp;размере 15%</span>
+				<form class="loyalty-program__form" name="loyalty-program" id="loyalty-program-form">
+						<input type="text" class="loyalty-program__input" placeholder="Ваше имя" name="name">
+						<input type="tel" class="loyalty-program__input" placeholder="+7 ___ __-__-___" name="phone">
+						<input type="submit" class="btn_big loyalty-program__btn">
+						<span class="loyalty-program__agree-text">Нажимая кнопку «Отправить», Вы соглашаетесь&nbsp;с Политикой обработки персональных данных</span>
+				</form>
+			</div>
+		</div>
+	</div>
+	</section>
+	<section class="work-stages">
+		<h2 class="work-stages__title">Приступаем через 3 дня!</h2>
+		<div class="stages">
+			<div class="stage">
+				<h3 class="stage__title">Сегодня</h3>
+				<span class="stage__desription">Вы оставляете заявку, мы перезваниваем и уточняем удобное&nbsp;для Вас время встречи.</span>
+			</div>
+			<div class="stage">
+				<h3 class="stage__title">Завтра</h3>
+				<span class="stage__desription">Наш специалист выезжает на&nbsp;замер объекта и в этот же день мы рассчитываем смету.</span>
+			</div>
+			<div class="stage">
+				<h3 class="stage__title stage__title-nobg">На 3-й день</h3>
+				<span class="stage__desription">Утверждаем смету и сроки реализации. Приступаем к&nbsp;долгожданному ремонту!</span>
+			</div>
+		</div>
+	</section>
+	<section class="object-map">
+		<div class="object-map__content">
+			<h2 class="object-map__title">Карта реализованных объектов</h2>
+			<div class="objects">
+				<div class="object">
+					<img src="./img/Ellipse.svg" alt="house" class="object__img">
+					<span class="object__text">Дома</span>
+				</div>
+				<div class="object">
+					<img src="./img/Ellipse.svg" alt="house" class="object__img">
+					<span class="object__text">Квартиры</span>
+				</div>
+				<div class="object">
+					<img src="./img/Ellipse.svg" alt="house" class="object__img">
+					<span class="object__text">Коммерческие помещения</span>
+				</div>
+			</div>
+		</div>
+		<div class="map">
+			<div style="position:relative;overflow:hidden;">
+				<a href="https://yandex.ru/maps/39/rostov-na-donu/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Ростов‑на‑Дону</a>
+				<a href="https://yandex.ru/maps/39/rostov-na-donu/?ll=39.720349%2C47.222078&utm_medium=mapframe&utm_source=maps&z=12" style="color:#eee;font-size:12px;position:absolute;top:14px;">Яндекс.Карты — поиск мест и адресов, городской транспорт</a><iframe src="https://yandex.ru/map-widget/v1/-/CCQXj9Q" width="732" height="632" frameborder="0" allowfullscreen="true" style="position:relative;"></iframe></div>
 		</div>
 	</section>
 </body>

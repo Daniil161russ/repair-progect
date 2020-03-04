@@ -3,6 +3,10 @@
 	font-weight: 500;
 }
 
+button{
+	-webkit-appearance: none;
+}
+
 body{
 	background: #E5E5E5;
 }
@@ -50,6 +54,7 @@ body{
 	line-height: 28px;
 	color: #FFFFFF;
 	cursor: pointer;
+	border:0;
 }
 
 /* Header */
@@ -293,7 +298,7 @@ body{
 }
 
 .materials__content{
-	width: 708px;
+	width: 50%;
 	background: url(../img/handmoney.svg) no-repeat bottom right #333333;
 }
 
@@ -319,4 +324,444 @@ body{
 	width: 281px;
 	padding-left:102px;
 	padding-top: 20px;
+}
+
+/* Calculator  */
+
+.calculator{
+	background: #FFFFFF;
+}
+
+.calculator__title{
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 110%;
+	margin: 0;
+	padding-top: 80px;
+	padding-left: 120px;
+}
+
+.calculator__content{
+	display: flex;
+	justify-content: space-between;
+	padding: 40px 120px 80px;
+}
+
+.quiz{
+	width: 792px;
+	height: 533px;
+	border: 1px solid #E0E0E0;
+	box-sizing: border-box;
+}
+
+.quiz__title{
+	margin: 0;
+	padding-left: 32px;
+	padding-top: 24px;
+	padding-bottom: 24px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 110%;
+	color: #333333;
+	border-bottom: 1px solid #E0E0E0;
+}
+
+.quiz__body{
+	padding: 0 32px;
+}
+
+.field{
+	padding: 32px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1px solid rgba(238, 238, 238,0.5);
+}
+
+.field-area{
+	border:none;
+	padding-bottom: 85px;
+}
+
+.field__label{
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 120%;
+	color: #333333;
+}
+
+.field__input{
+	margin: 0;
+	padding: 0;
+	width: 592px;
+	border: 1px solid #E0E0E0;
+	border-right: none;
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+}
+
+.field__item{
+	flex-basis: 50%;
+	height: 40px;
+	background: #FFFFFF;
+	box-sizing: border-box;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	color: #333333;
+	padding-top: 8px;
+	border-right: 1px solid #e0e0e0;
+}
+
+.item_active{
+	background: #333333;
+	color: #FFFFFF;
+}
+
+.field__number{
+	width: 564px;
+	height: 40px;
+	border: 1px solid #E0E0E0;
+	box-sizing: border-box;
+	outline: none;
+	color: #333333;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	padding-left: 16px;
+}
+
+.field__number::placeholder{
+	color: #BDBDBD;
+}
+
+.field__area .field__label{
+	padding-left: 8px;
+}
+
+.quiz__steps{
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+	padding: 0 32px;
+	padding-top:24px;
+	margin-bottom: 25px;
+	border-top: 1px solid #E0E0E0;
+}
+
+.scale{
+	width: 549px;
+	display: flex;
+	flex-direction: column;
+}
+
+.scale__text{
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 140%;
+	color: #333333;
+	padding-bottom: 8px;
+}
+
+.progress-bar{
+	width: 100%;
+	height: 4px;
+	background: #F2F2F2;
+	border-radius: 2px;
+}
+
+.progress-bar_gray{
+	display: block;
+	width: calc(100%/6);
+	height: 4px;
+	background: #828282;
+	border-radius: 2px;
+}
+
+.back{
+	margin-right: 8px;
+	width: 32px;
+	height: 32px;
+	opacity: 0.4;
+	border: 1px solid #4F4F4F;
+	box-sizing: border-box;
+	border-radius: 50px;
+	background:#FFFFFF;
+	outline: none;
+	cursor: pointer;
+}
+
+.back__img{
+	width: 18px;
+}
+
+.forward{
+	width: 107px;
+	height: 32px;
+	background: #333333 url(../img/Arrow_white.svg) no-repeat 80% 50%;
+	border:0;
+	border-radius: 50px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 100%;
+	padding-right: 38px;
+	color: #FFFFFF;
+	outline: none;
+	cursor: pointer;
+}
+
+.calculator__form{
+	width: 384px;
+	height: 533px;
+	border: 1px solid #E0E0E0;
+	box-sizing: border-box;
+}
+
+.repair-cost{
+	background: #F2F2F2;
+	height: 172px;
+}
+
+.repair-cost__text{
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 110%;
+	color: #333333;
+	padding-top: 32px;
+	padding-left: 23px;
+	margin: 0;
+}
+
+.repair-cost__price{
+	display: block;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 100%;
+	padding-top: 6px;
+	padding-left: 23px;
+}
+
+.repair-cost__included{
+	width: 203px;
+	display: block;
+	padding-top: 8px;
+	margin-left: 23px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 100%;
+	color: #828282;
+	border-bottom: 1px dashed #828282;
+	cursor: pointer;
+}
+
+.repair-cost__deadline{
+	display: block;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 100%;
+	color: #333333;
+	padding-top: 24px;
+	padding-left: 23px;
+}
+
+.loyalty-program{
+	background: #FFFFFF;
+}
+
+.loyalty-program__title{
+	margin: 0;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 110%;
+	color: #333333;
+	padding-top: 24px;
+	padding-left: 23px;
+}
+
+.loyalty-program__description{
+	display: block;
+	width: 264px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 110%;
+	color: #333333;
+	padding-top: 16px;
+	padding-left: 23px;
+}
+
+.loyalty-program__form{
+	padding-top: 16px;
+	padding-left: 23px;
+}
+
+.loyalty-program__input{
+	width: 336px;
+	height: 40px;	
+	padding-left: 16px;
+	margin-bottom: 8px;
+	outline: none;
+	background: #FFFFFF;
+	border: 1px solid #E0E0E0;
+	box-sizing: border-box;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	color: #333333;
+}
+
+.loyalty-program__input::placeholder{
+	color: #BDBDBD;
+}
+
+.loyalty-program__btn{
+	margin: 0;
+	margin-top: 16px;
+	width: 133px;
+	height: 44px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 28px;
+	color: #FFFFFF;
+}
+
+.loyalty-program__agree-text{
+	display: block;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 110%;
+	color: #BDBDBD;
+	padding-top: 8px;
+}
+
+/* Work-stages  */
+
+.work-stages{
+	background: #333333;
+	height: 413px;
+}
+
+.work-stages__title{
+	margin: 0;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 110%;
+	color: #FFFFFF;
+	padding-top: 80px;
+	padding-left: 120px;
+}
+
+.stages{
+	margin-top: 80px;
+	padding-left: 120px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.stage{
+	width: 365px;
+	margin-right: 40px;
+}
+
+.stage__title{
+	margin: 0;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 110%;
+	color: #FFFFFF;
+	background:url(../img/Line.svg) no-repeat 95% 50%;
+}
+
+.stage__title-nobg{
+	background:none;
+}
+
+.stage__desription{
+	display: block;
+	width: 288px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 140%;
+	color: #F2F2F2;
+	padding-top: 19px;
+}
+
+/* Object-Map  */
+
+.object-map{
+	background: #FFFFFF;
+	display: flex;
+	height: 632px;
+}
+
+.object-map__content{
+	width: 589px;
+	height: 424px;
+	margin-top: 80px;
+	margin-left: 120px;
+	box-sizing:border-box;
+}
+
+.object-map__title{
+	margin: 0;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 110%;
+	color: #333333;
+}
+
+.objects{
+	margin-top: 64px;
+	display: block;
+}
+
+.object{
+	display: flex;
+	align-items:center;
+	width: 486px;
+	height: 80px;
+	margin-bottom: 8px;
+	border: 1px solid #E0E0E0;
+	box-sizing: border-box;
+}
+
+.object__img{
+	width: 48px;
+	height: 48px;
+	padding-left: 15px;
+	padding-right: 30px;
+}
+
+.object__text{
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 110%;
+	color: #000000;
+}
+
+.map{
+	mix-blend-mode: luminosity;
 }
