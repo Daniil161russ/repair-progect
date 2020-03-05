@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="./css/slick.css"/>
 	<link rel="stylesheet" href="css/style.css">
 	<title>Ремонт под ключ</title>
 </head>
@@ -212,5 +213,97 @@
 			</div>
 		</div>
 	</section>
+	<section class="works">
+		<div class="works__content">
+			<div class="works-header">
+				<h2 class="works__title">Реализованные проекты</h2>
+				<div class="works-arrows">
+					<button class="arrow prev-arrow"></button>
+					<button class="arrow next-arrow"></button>
+				</div>
+			</div>
+			<div class="works-slider">
+				<div class="works-slider__item">
+					<h3 class="works-slider__title">Дом в Старочеркасске</h3>
+					<span class="works-more">Подробнее</span>
+				</div>
+				<div class="works-slider__item">
+					<h3 class="works-slider__title">Квартира на ул. Закруткина</h3>
+					<span class="works-more">Подробнее</span>
+				</div>
+				<div class="works-slider__item">
+					<h3 class="works-slider__title">Дом в Батайске</h3>
+					<span class="works-more">Подробнее</span>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="feedback">
+		<div class="feedback-content">
+			<div class="feedback-header">
+				<h2 class="feedback__title">Отзывы наших клиентов</h2>
+				<button class="btn_big feedback__button">Написать отзыв</button>
+			</div>
+			<div class="feedback-boxes">
+				<div class="feedback-box">
+					<div class="feedback-box__content">
+						<h3 class="feedback-box__title">Евгений Никонов</h3>
+						<p class="feedback-box__text">Выражаю благодарность вашей компании и всем ее работникам, которые решили проблему с ремонтом в гостинной. 
+							Особой благодарности достоин прораб Владимир, который чутко относился к моим пожеланиям. 
+							Все работы были выполнены в назначенные сроки, без нареканий.
+							Всей семьей остались довольны ремонтом. Огромное спасибо! Развивайтесь и побольше вам клиентов.
+						</p>
+					</div>
+				</div>
+				<div class="feedback-box">
+					<div class="feedback-box__content">
+						<h3 class="feedback-box__title">Евгений Никонов</h3>
+						<p class="feedback-box__text">Выражаю благодарность вашей компании и всем ее работникам, которые решили проблему с ремонтом в гостинной. 
+							Особой благодарности достоин прораб Владимир, который чутко относился к моим пожеланиям. 
+							Все работы были выполнены в назначенные сроки, без нареканий.
+							Всей семьей остались довольны ремонтом. Огромное спасибо! Развивайтесь и побольше вам клиентов.
+						</p>
+					</div>
+				</div>
+				<div class="feedback-box">
+					<div class="feedback-box__content">
+						<h3 class="feedback-box__title">Евгений Никонов</h3>
+						<p class="feedback-box__text">Выражаю благодарность вашей компании и всем ее работникам, которые решили проблему с ремонтом в гостинной. 
+							Особой благодарности достоин прораб Владимир, который чутко относился к моим пожеланиям. 
+							Все работы были выполнены в назначенные сроки, без нареканий.
+							Всей семьей остались довольны ремонтом. Огромное спасибо! Развивайтесь и побольше вам клиентов.
+						</p>
+					</div>
+				</div>
+				<div class="feedback-box">
+					<div class="feedback-box__content">
+						<h3 class="feedback-box__title">Евгений Никонов</h3>
+						<p class="feedback-box__text">Выражаю благодарность вашей компании и всем ее работникам, которые решили проблему с ремонтом в гостинной. 
+							Особой благодарности достоин прораб Владимир, который чутко относился к моим пожеланиям. 
+							Все работы были выполнены в назначенные сроки, без нареканий.
+							Всей семьей остались довольны ремонтом. Огромное спасибо! Развивайтесь и побольше вам клиентов.
+						</p>
+					</div>
+				</div>
+			</div>
+			<button class="btn_transparent feedback__btn-next">Посмотреть следующие</button>
+		</div>
+	</section>
+
+
+	<script src="./scripts/jquery.js"></script>
+	<script type="text/javascript" src="./scripts/slick.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			$('.works-slider').slick({
+				prevArrow: $('.prev-arrow'),
+				nextArrow: $('.next-arrow'),
+				slidesToShow: 1,
+  			infinite: false,
+				initialSlide:0,
+				variableWidth: true
+			});
+		});
+	</script>
 </body>
 </html>
