@@ -453,10 +453,10 @@ body{
 	padding-left: 8px;
 }
 
-/* QUIS_BODY_2/3 */
+/* QUIS_BODY_2/3/4/5/6 */
 
 .quiz__body_activ{
-	/* display: none; */
+	display: block;
 }
 
 .design-boxes{
@@ -534,8 +534,44 @@ body{
 	padding-top: 24px;
 }
 
+.quiz__body-end{
+	padding:60px;
+}
 
-/* QUIS_BODY_2/3_END */
+.quiz__body-end__title{
+	padding-top: 40px;
+	display: block;
+	margin: 0;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 110%;
+	color: #333333;
+}
+
+.quiz__body-end__arrow{
+ position: relative;
+ left: 120px;
+ top:95px;
+
+}
+
+.quiz__body-end__text{
+	padding-top: 16px;
+	margin: 0;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 120%;
+	color: #333333;
+}
+
+.quiz__body-end__text-warring{
+	padding-top: 8px;
+}
+
+
+/* QUIS_BODY_2/3/4/5/6_END */
 
 .quiz__steps{
 	display: flex;
