@@ -424,6 +424,7 @@ body{
 	color: #333333;
 	padding-top: 8px;
 	border-right: 1px solid #e0e0e0;
+	cursor: pointer;
 }
 
 .item_active{
@@ -455,12 +456,17 @@ body{
 
 /* QUIS_BODY_2/3/4/5/6 */
 
+.active{
+	display: block;
+}
+
 .quiz__body_activ{
 	display: block;
 }
 
 .design-boxes{
 	padding: 32px;
+	padding-bottom: 40px;
 	padding-right: 0;
 }
 
@@ -607,7 +613,7 @@ body{
 
 .progress-bar_gray{
 	display: block;
-	width: calc(100%/6);
+	width: 16.6%; 
 	height: 4px;
 	background: #828282;
 	border-radius: 2px;

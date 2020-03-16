@@ -99,11 +99,11 @@
 		<div class="calculator__content">
 			<div class="quiz">
 				
-				<div class="quiz__body ">
+				<div class="quiz__body active">
 					<h3 class="quiz__title">Основные данные</h3>
 					<div class="field">
 						<span class="field__label">Тип объекта</span>
-						<ul class="field__input">
+						<ul class="field__input" id="ObjectType">
 							<li class="field__item item_active">Квартира</li>
 							<li class="field__item">Дом</li>
 							<li class="field__item">Ком.помещение</li>
@@ -111,7 +111,7 @@
 					</div>
 					<div class="field">
 						<span class="field__label">Состояние</span>
-						<ul class="field__input">
+						<ul class="field__input" id="state">
 							<li class="field__item item_active">Вторичное жильё</li>
 							<li class="field__item">Стройвариант</li>
 						</ul>
@@ -126,7 +126,7 @@
 			</div>
 
 
-			<div class="quiz__body">
+			<div class="quiz__body" >
 				<h3 class="quiz__title">Дизайн-проект</h3>
 				<div class="quiz-boxes design-boxes">
 					<div class="design-box">
@@ -142,7 +142,7 @@
 				</div>
 			</div>
 
-			<div class="quiz__body">
+			<div class="quiz__body" >
 				<h3 class="quiz__title">Какие покрытия на пол?</h3>
 				<div class="quiz-boxes coverage__boxes">
 					<div class="coverage__box">
@@ -172,7 +172,7 @@
 				</div>
 			</div>
 
-			<div class="quiz__body">
+			<div class="quiz__body" >
 				<h3 class="quiz__title">Какие покрытия на стены?</h3>
 				<div class="quiz-boxes wall-coverage__boxes">
 					<div class="coverage__box wall-coverage__box">
@@ -198,7 +198,7 @@
 				</div>
 			</div>
 
-			<div class="quiz__body">
+			<div class="quiz__body" >
 				<h3 class="quiz__title">Какие будут потолки?</h3>
 				<div class="quiz-boxes ceilings-coverage__boxes">
 					<div class="coverage__box ceilings-coverage__box">
@@ -220,13 +220,12 @@
 				</div>
 			</div>
 
-			<div class="quiz__body_activ quiz__body-end">
+			<div class="quiz__body quiz__body-end">
 				<img src="./img/smile.svg" alt="smile" class="quiz__body-end__img">
 				<img src="./img/Arrow-end.svg" alt="arrow" class="quiz__body-end__arrow">
 				<h3 class="quiz__body-end__title">Расчёт завершён!</h3>
 				<p class="quiz__body-end__text">Отлично, Вы ответили на все вопросы и можете увидеть ориентировочную стоимость ремонта.</p>
 				<p class="quiz__body-end__text quiz__body-end__text-warring">Обратите внимание, что материалы не входят в стоимость, но обычно их стоимость составляет 20 – 25% от стоимости ремонта.</p>
-				
 			</div>
 
 				<div class="quiz__steps">
@@ -237,8 +236,8 @@
 						</div>
 					</div>
 					<div class="step__buttons">
-						<button class="back"><img src="img/Arrow.svg" alt="arrow" class="back__img"></button>
-						<button class="forward">Далее</button>
+						<button class="back" data-type="prev"><img src="img/Arrow.svg" alt="arrow" class="back__img"></button>
+						<button class="forward" data-type="next">Далее</button>
 					</div>
 				</div>	
 		</div>
@@ -438,17 +437,6 @@
 
 	<script src="./scripts/jquery.js"></script>
 	<script type="text/javascript" src="./scripts/slick.min.js"></script>
-	<script>
-		$(document).ready(function() {
-			$('.works-slider').slick({
-				prevArrow: $('.prev-arrow'),
-				nextArrow: $('.next-arrow'),
-				slidesToShow: 1,
-  			infinite: false,
-				initialSlide:0,
-				variableWidth: true
-			});
-		});
-	</script>
+	<script src="./scripts/script.js"></script>
 </body>
 </html>

@@ -1,0 +1,19 @@
+{
+  "name": "repair-progect",
+  "version": "1.0.0",
+  "description": "Turnkey Repair Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daniil161russ/repair-progect.git"
+  },
+  "author": "Daniil Boyko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Daniil161russ/repair-progect/issues"
+  },
+  "homepage": "https://github.com/Daniil161russ/repair-progect#readme"
+}
